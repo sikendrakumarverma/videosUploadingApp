@@ -9,6 +9,7 @@ import TextField from '@mui/material/TextField';
 import CircularProgress from '@mui/material/CircularProgress';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { SERVER_URI } from "../config/keys";
 import '../App.css'
 
 function Upload() {
@@ -29,7 +30,7 @@ function Upload() {
     const [progress, setProgress] = useState(null);
     console.log(progress)
 
-    let UploadVideoUrl = "http://localhost:8080/upload"
+    let UploadVideoUrl = `${SERVER_URI}/upload`
 
     function Upload() {
 

@@ -24,7 +24,7 @@
 
  .progress_div{
   border: 3px solid gray;
-  background-color: tomato;
+  background-color: skyblue;
    display: flex;
   flex-direction: column;
   align-items: center;
